@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 40px 20px;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+.table-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 14px;
+  padding: 28px;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.05);
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.kicker {
+  margin: 0 0 6px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #1e3a8a;
+}
+
+header h1 {
+  margin: 0 0 4px;
+  font-size: 1.75rem;
+  color: #0f172a;
+}
+
+header p:last-child {
+  margin: 0;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 13px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+th {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+tbody tr:hover {
+  background-color: #eff6ff;
+}
+
+tfoot td {
+  background-color: #f1f5f9;
+  border-top: 2px solid #94a3b8;
+  border-bottom: none;
+  color: #0f172a;
+}
+
+.status {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.done {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.champ {
+  background-color: #fef3c7;
+  color: #92400e;
+}
